@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>GIFFIES — Simple Gifts</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-inner">
+        <div class="nav-left">
+          <a class="brand" href="/">GIFFIES</a>
+          <a class="nav-link" href="/">Home</a>
+        </div>
+        <div class="nav-right">
+          <span id="nav-user"></span>
+          <a id="nav-login" class="nav-link" href="/login.html">Login</a>
+          <a id="nav-register" class="nav-link" href="/register.html">Register</a>
+          <a class="cart-link nav-link" href="/cart.html">Cart <span id="cart-count" class="badge">0</span></a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="hero">
+        <h1>Simple Gifts. Beautiful Moments.</h1>
+        <p class="sub">Thoughtful, minimal gifts for small celebrations and everyday joy.</p>
+      </section>
+
+      <section>
+        <div id="products" class="grid"></div>
+      </section>
+
+      <section class="testimonials">
+        <h3>Testimonials</h3>
+        <div class="grid">
+          <div class="card">"Lovely, simple gifts — fast delivery."<div class="muted">— Jamie</div></div>
+          <div class="card">"Quality products and beautiful packaging."<div class="muted">— Priya</div></div>
+          <div class="card">"Perfect for small thoughtful moments."<div class="muted">— Marco</div></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">© GIFFIES — Simple Gifts. All rights reserved.</div>
+      </footer>
+    </main>
+    <script src="/auth.js"></script>
+    <script src="/products.js"></script>
+    <script src="/cart.js"></script>
+  </body>
+</html>
