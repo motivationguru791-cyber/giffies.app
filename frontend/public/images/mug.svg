@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F5F5F0"/>
+  <!-- Mug Body -->
+  <path d="M 100 120 L 120 280 Q 120 300 140 300 L 260 300 Q 280 300 280 280 L 300 120 Z" fill="#D2B48C" stroke="#8B7355" stroke-width="2"/>
+  <!-- Mug Handle -->
+  <path d="M 300 160 Q 340 160 340 200 Q 340 240 300 240" fill="none" stroke="#D2B48C" stroke-width="15"/>
+  <path d="M 300 160 Q 340 160 340 200 Q 340 240 300 240" fill="none" stroke="#8B7355" stroke-width="2"/>
+  <!-- Rim -->
+  <ellipse cx="200" cy="120" rx="100" ry="25" fill="#C19A6B" stroke="#8B7355" stroke-width="2"/>
+  <!-- Shine -->
+  <ellipse cx="160" cy="115" rx="40" ry="15" fill="#FFFFFF" opacity="0.4"/>
+  <!-- Coffee inside -->
+  <ellipse cx="200" cy="125" rx="95" ry="20" fill="#6F4E37" opacity="0.6"/>
+  <!-- Decorative band -->
+  <rect x="130" y="180" width="140" height="30" fill="#A0826D" opacity="0.5"/>
+  <text x="200" y="200" font-size="14" text-anchor="middle" fill="#FFFFFF" font-weight="bold">GIFFIES</text>
+  <!-- Text -->
+  <text x="200" y="330" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Handmade Mug</text>
+  <text x="200" y="360" font-size="16" text-anchor="middle" fill="#666">Ceramic Premium Mug</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F0F5F0"/>
+  <!-- Pot -->
+  <path d="M 140 200 L 130 320 Q 130 340 150 340 L 250 340 Q 270 340 270 320 L 260 200 Z" fill="#D2B48C" stroke="#8B7355" stroke-width="2"/>
+  <!-- Soil -->
+  <ellipse cx="200" cy="210" rx="60" ry="20" fill="#8B6F47"/>
+  <!-- Soil texture -->
+  <circle cx="180" cy="215" r="2" fill="#654321" opacity="0.6"/>
+  <circle cx="210" cy="212" r="2" fill="#654321" opacity="0.6"/>
+  <circle cx="195" cy="220" r="1.5" fill="#654321" opacity="0.5"/>
+  <!-- Main leaf -->
+  <ellipse cx="200" cy="80" rx="25" ry="60" fill="#2D5016" transform="rotate(-20 200 80)"/>
+  <ellipse cx="200" cy="80" rx="22" ry="55" fill="#3A7C24" transform="rotate(-20 200 80)"/>
+  <!-- Leaf vein -->
+  <line x1="200" y1="30" x2="200" y2="130" stroke="#1A3D0A" stroke-width="1" opacity="0.5"/>
+  <!-- Side leaves -->
+  <ellipse cx="170" cy="130" rx="18" ry="50" fill="#2D5016" transform="rotate(-45 170 130)"/>
+  <ellipse cx="230" cy="140" rx="18" ry="50" fill="#2D5016" transform="rotate(35 230 140)"/>
+  <!-- Small leaves -->
+  <ellipse cx="185" cy="100" rx="12" ry="30" fill="#3A7C24" transform="rotate(-60 185 100)"/>
+  <ellipse cx="215" cy="110" rx="12" ry="30" fill="#3A7C24" transform="rotate(50 215 110)"/>
+  <!-- Text -->
+  <text x="200" y="370" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Mini Plant</text>
+  <text x="200" y="390" font-size="14" text-anchor="middle" fill="#2D5016">Green Companion</text>
+</svg>

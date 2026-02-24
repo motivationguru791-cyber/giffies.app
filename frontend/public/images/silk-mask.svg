@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F0F0F0"/>
+  <!-- Silk Mask -->
+  <ellipse cx="200" cy="150" rx="120" ry="80" fill="#E6D5CC" stroke="#8B7355" stroke-width="2"/>
+  <ellipse cx="200" cy="150" rx="110" ry="70" fill="#F5E6D3"/>
+  <!-- Eye holes -->
+  <ellipse cx="150" cy="135" rx="25" ry="35" fill="#FFFFFF" stroke="#8B7355" stroke-width="1.5"/>
+  <ellipse cx="250" cy="135" rx="25" ry="35" fill="#FFFFFF" stroke="#8B7355" stroke-width="1.5"/>
+  <!-- Shine effect -->
+  <ellipse cx="145" cy="120" rx="12" ry="15" fill="#FFFFFF" opacity="0.6"/>
+  <ellipse cx="245" cy="120" rx="12" ry="15" fill="#FFFFFF" opacity="0.6"/>
+  <!-- Elastic band -->
+  <path d="M 100 150 Q 80 150 75 100" stroke="#D4A5A5" stroke-width="3" fill="none"/>
+  <path d="M 300 150 Q 320 150 325 100" stroke="#D4A5A5" stroke-width="3" fill="none"/>
+  <!-- Text -->
+  <text x="200" y="290" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Silk Sleep Mask</text>
+  <text x="200" y="320" font-size="16" text-anchor="middle" fill="#666">Luxury Sleeping Mask</text>
+</svg>
